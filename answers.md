@@ -9,7 +9,7 @@
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
 	I passed redirect_to into a path-- trainer_path. The path takes the current trainer as an input.
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
-
+	It unyields the 'layouts/messages' of application.html.erb. _messages.html.erb displays the right hand side of the flash[:error] line.
 # Give us feedback on the project and decal below!
 
 # Extra credit: Link your Heroku deployed app
